@@ -16,6 +16,7 @@ export const JobList = styled.ul`
 export const JobItem = styled.li`
     display: flex;
     justify-content: space-between;
+    margin: 8px 0;
 `
 
 export const JobLink = styled.a`

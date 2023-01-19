@@ -6,9 +6,12 @@ export const Wrapper = styled.section`
     text-align: center;
 `
 export const BenefitsList = styled.div`
-    display: flex;
-    margin: 0 auto 24px;
-    max-width: 832px;
+    margin: 0 auto 32px;
+
+    @media (min-width: 768px) {
+        display: flex;
+        max-width: 832px;
+    }
 `
 
 export const Description = styled.p`
@@ -18,16 +21,29 @@ export const Description = styled.p`
 
 export const Item = styled.div`
     text-align: center;
-    margin-left: 24px;
+    max-width: 260px;
+    margin: 32px auto 0;
 
     &:first-of-type {
-        margin-left: 0;
+        margin-top: 0;
+    }
+
+    @media (min-width: 768px) {
+        margin-left: 24px;
+        &:first-of-type {
+            margin-left: 0;
+        }
     }
 `
 
 export const Icon = styled.img`
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
+
+    @media (min-width: 768px) {
+        width: 180px;
+        height: 180px;
+    }
 `
 
 export const SubtitleBenefit = styled(SubTitle)`

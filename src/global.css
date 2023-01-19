@@ -6,7 +6,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
-    --container: 16px;
+    --container: 32px;
     font-size: 16px;
 }
 

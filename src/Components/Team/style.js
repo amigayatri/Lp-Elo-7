@@ -6,9 +6,11 @@ export const Wrapper = styled.section`
 `
 
 export const CeoWrapper = styled.div`
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 32px;
+    @media (min-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+    }
 `
 
 export const Subtitle = styled.span`
@@ -39,16 +41,21 @@ export const TeamWrapper = styled.div`
 `
 
 export const VideoPlaceholder = styled.img`
-    
+    max-width: 100%;
 `
 
 export const TeamMembers = styled.div`
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 8px;
     width: 100%;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(2, 1fr);
+
+    @media (min-width: 768px) {
+        grid-template-columns: repeat(4, 1fr);
+    }
 `
 
 export const TeamMember = styled.img`
     width: 100%;
+    max-width: 300px;
 `
