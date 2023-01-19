@@ -30,6 +30,7 @@ export const Item = styled.div`
 
     @media (min-width: 768px) {
         margin-left: 24px;
+        margin-top : 0;
         &:first-of-type {
             margin-left: 0;
         }
