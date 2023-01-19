@@ -16,7 +16,7 @@ export default function Jobs() {
     return (
         <Wrapper id="jobs">
             <SectionTitle>Vagas em aberto</SectionTitle>
-            <SubTitle>Desenvolvimento</SubTitle>
+            <SubTitle style={{paddingLeft: "8px"}}>Desenvolvimento</SubTitle>
             <JobList>
                 {jobs.map((job, index) => 
                     job.ativa && <JobItem key={"job "+index}>
