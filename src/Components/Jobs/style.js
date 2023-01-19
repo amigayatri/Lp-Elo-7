@@ -20,7 +20,7 @@ export const JobItem = styled.li`
     padding: 8px 8px;
     transition: box-shadow .3s;
 
-    &:hover {
+    &:hover   {
         box-shadow: 0 0 11px rgba(33,33,33,.2); 
     }
 
