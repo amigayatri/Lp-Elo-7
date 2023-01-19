@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { SubTitle } from '../../globalComponents';
 
 export const Wrapper = styled.section`
-    padding: var(--container);
+    padding: 32px var(--container);
     text-align: center;
 `
 export const BenefitsList = styled.div`

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.section`
-    padding: var(--container);
+    padding: 32px var(--container);
     background-color: ${props => props.theme.backgroundGray};
 `
 
@@ -42,6 +42,7 @@ export const TeamWrapper = styled.div`
 
 export const VideoPlaceholder = styled.img`
     max-width: 100%;
+    width: 100%;
 `
 
 export const TeamMembers = styled.div`
