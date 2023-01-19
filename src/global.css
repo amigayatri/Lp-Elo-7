@@ -5,6 +5,16 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    --container: 16px;
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    body {
+        --container: 64px;
+    }
+    
 }
 
 code {

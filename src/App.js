@@ -1,9 +1,11 @@
-import Example from './Components/Example';
+import Hero from './Components/Hero';
+import Vagas from './Components/Vagas';
 
 function App() {
   return (
     <div>
-      <Example />
+      <Hero />
+      <Vagas />
     </div>
   );
 }
