@@ -16,7 +16,7 @@ export default function Vagas() {
     console.log(jobs, "oi")
 
     return (
-        <Wrapper>
+        <Wrapper id="jobs">
             <Title>Vagas em aberto</Title>
             <SubTitle>Desenvolvimento</SubTitle>
             <JobList>
