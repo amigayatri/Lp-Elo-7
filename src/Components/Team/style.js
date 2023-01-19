@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.section`
     padding: var(--container);
     background-color: ${props => props.theme.backgroundGray};
 `
