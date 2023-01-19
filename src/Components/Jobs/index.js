@@ -1,7 +1,7 @@
-import { Wrapper, JobItem, JobLink, JobList, JobLocal, SubTitle } from "./style";
+import { Wrapper, JobItem, JobLink, JobList, JobLocal } from "./style";
 import api from '../../Services/api';
 import { useState, useEffect } from "react";
-import { SectionTitle } from "../../globalComponents";
+import { SectionTitle, SubTitle } from "../../globalComponents";
 
 export default function Jobs() {
     let [jobs, setJobs] = useState([])
@@ -10,11 +10,8 @@ export default function Jobs() {
     useEffect (() => {
         api.get().then((response => {
             setJobs(response.data.vagas)
-            console.log(response)
         } ))
     }, [])
-
-    console.log(jobs, "oi")
 
     return (
         <Wrapper id="jobs">
@@ -23,7 +20,6 @@ export default function Jobs() {
             <JobList>
                 {jobs.map((job, index) => 
                     job.ativa && <JobItem key={"job "+index}>
-                        {console.log(job)}
                         <JobLink href={job.link}>{job.cargo}</JobLink>
                         {job.localizacao? 
                             <JobLocal>{job.localizacao.bairro} - {job.localizacao.cidade}, {job.localizacao.pais}</JobLocal>

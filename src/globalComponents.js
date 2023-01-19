@@ -16,6 +16,13 @@ export const Button = styled.a`
     }
 `
 
+export const SubTitle = styled.h3`
+    text-transform: uppercase;
+    color: ${props => props.theme.warmGray};
+    text-align: left;
+    font-size: 1.125rem;
+`
+
 export const SectionTitle = styled.h2`
     text-transform: uppercase;
     color: ${props => props.theme.warmGray};
