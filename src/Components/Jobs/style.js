@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.section`
     text-align: center;
-    padding: 0 var(--container);
+    padding: 32px var(--container);
     width: 100%;
     box-sizing: border-box;
 `
