@@ -7,7 +7,7 @@ export default function Hero() {
     return (
         <Wrapper className="hero">
             <ImageContainer>
-                <Image src={background}/>
+                <Image alt="Grupo de trabalhadores com a camisa da Elo7 comemorando" src={background}/>
                 <Title>Trabalhe na Elo7</Title>
             </ImageContainer>
             <Description>

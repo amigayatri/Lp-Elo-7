@@ -30,12 +30,6 @@ export const JobLocal = styled.span`
     font-weight: 500;
 `
 
-export const Title = styled.h2`
-    text-transform: uppercase;
-    color: ${props => props.theme.warmGray};
-    font-size: 1.25rem;
-`
-
 export const SubTitle = styled.h3`
     text-transform: uppercase;
     color: ${props => props.theme.warmGray};

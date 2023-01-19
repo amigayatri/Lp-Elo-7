@@ -1,11 +1,13 @@
 import Hero from './Components/Hero';
-import Vagas from './Components/Vagas';
+import Jobs from './Components/Jobs';
+import Team from './Components/Team';
 
 function App() {
   return (
     <div>
       <Hero />
-      <Vagas />
+      <Team />
+      <Jobs />
     </div>
   );
 }

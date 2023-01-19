@@ -1,8 +1,9 @@
-import { Wrapper, JobItem, JobLink, JobList, JobLocal, Title, SubTitle } from "./style";
+import { Wrapper, JobItem, JobLink, JobList, JobLocal, SubTitle } from "./style";
 import api from '../../Services/api';
 import { useState, useEffect } from "react";
+import { SectionTitle } from "../../globalComponents";
 
-export default function Vagas() {
+export default function Jobs() {
     let [jobs, setJobs] = useState([])
 
 
@@ -17,7 +18,7 @@ export default function Vagas() {
 
     return (
         <Wrapper id="jobs">
-            <Title>Vagas em aberto</Title>
+            <SectionTitle>Vagas em aberto</SectionTitle>
             <SubTitle>Desenvolvimento</SubTitle>
             <JobList>
                 {jobs.map((job, index) => 

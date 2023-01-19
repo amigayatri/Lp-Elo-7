@@ -15,3 +15,9 @@ export const Button = styled.a`
 
     }
 `
+
+export const SectionTitle = styled.h2`
+    text-transform: uppercase;
+    color: ${props => props.theme.warmGray};
+    font-size: 1.25rem;
+`
