@@ -1,5 +1,5 @@
 import { Wrapper, BannerImage } from "./style";
-import banner from "../../Assets/foto-bottom.png"
+import banner from "../../Assets/foto-bottom.jpeg"
 
 export default function Banner() {
 

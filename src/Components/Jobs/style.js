@@ -27,13 +27,11 @@ export const JobItem = styled.li`
 `
 
 export const JobLink = styled.a`
-    text-align: start;
     text-decoration: none;
     color: ${props => props.theme.green};
     font-weight: 500;
 `
 export const JobLocal = styled.span`
-    text-align: end;
     color: ${props => props.theme.warmGray};
     font-weight: 500;
 `

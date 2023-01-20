@@ -1,8 +1,8 @@
 import { Wrapper, BenefitsList, Item, Icon, Description, SubtitleBenefit } from "./style";
 import { Button } from "../../globalComponents";
-import qualidade from "../../Assets/qualidade.png"
-import atividades from "../../Assets/atividades.png"
-import descontracao from "../../Assets/descontracao.png"
+import qualidade from "../../Assets/qualidade.jpeg"
+import atividades from "../../Assets/atividades.jpeg"
+import descontracao from "../../Assets/descontracao.jpeg"
 
 
 export default function Benefits() {
@@ -45,7 +45,7 @@ export default function Benefits() {
                     )
                 })}
             </BenefitsList>
-            <Button>Saiba mais</Button>
+            <Button href="#">Saiba mais</Button>
         </Wrapper>
     );
 }

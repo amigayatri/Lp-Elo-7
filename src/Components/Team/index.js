@@ -1,10 +1,10 @@
 import { Wrapper, CeoWrapper,  TeamWrapper, TeamMember, VideoPlaceholder, TextWrapper, Subtitle, Description, TeamMembers } from "./style";
 import { SectionTitle } from "../../globalComponents";
-import placeholder from "../../Assets/placeholder-video.png"
-import beatriz from "../../Assets/beatriz.png"
-import camila from "../../Assets/camila.png"
-import david from "../../Assets/david.png"
-import guto from "../../Assets/guto.png"
+import placeholder from "../../Assets/placeholder-video.jpeg"
+import beatriz from "../../Assets/beatriz.jpeg"
+import camila from "../../Assets/camila.jpeg"
+import david from "../../Assets/david.jpeg"
+import guto from "../../Assets/guto.jpeg"
 
 
 export default function Team() {

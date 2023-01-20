@@ -23,6 +23,7 @@ export const Subtitle = styled.span`
 
 export const Description = styled.p`
     color: ${props => props.theme.warmGray};
+    text-align: justify;
 
 `
 

@@ -1,6 +1,6 @@
 import { Wrapper, Title, Description, Image, ImageContainer } from "./style";
 import { Button } from "../../globalComponents";
-import background from "../../Assets/foto-header.png"
+import background from "../../Assets/foto-header.jpeg"
 
 
 export default function Hero() {
